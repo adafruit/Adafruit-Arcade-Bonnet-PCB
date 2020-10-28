@@ -8,11 +8,54 @@ PCB files for the Adafruit Arcade Bonnet. Format is EagleCAD schematic and board
 
 ### Description
 
-Bosch has stepped up their game with their new BME280 sensor, an environmental sensor with temperature, barometric pressure and humidity! This sensor is great for all sorts of weather/environmental sensing and can even be used in both I2C and SPI!
+Playing retro games is easy on a Raspberry Pi - and that pocket-sized computer is pretty good at it too! All you need is a little help to connect buttons and a joystick up and you can custom design your own arcade console, desktop or stand-up machine, even just a simple controller box. It makes for a fun weekend project that will last all year.
 
-This precision sensor from Bosch is the best low-cost sensing solution for measuring humidity with ±3% accuracy, barometric pressure with ±1 hPa absolute accuraccy, and temperature with ±1.0°C accuracy. Because pressure changes with altitude, and the pressure measurements are so good, you can also use it as an altimeter with  ±1 meter or better accuracy!
+This Adafruit Arcade Bonnet is designed to make small emulator projects a little easier to build. Here's what you can look forward to!
 
-The BME280 is the next-generation of sensors from Bosch, and is the upgrade to the BMP085/BMP180/BMP183 - with a low altitude noise of 0.25m and the same fast conversion time. It has the same specifications, but can use either I2C or SPI. For simple easy wiring, go with I2C. If you want to connect a bunch of sensors without worrying about I2C address collisions, go with SPI.
+* It is the same size as a Pi Zero, so for really compact builds, this is super small. You can also use it with a Pi 2, 3, B+ or any 2x20 connector Pi.
+* It has JST sockets so you can plug in six arcade buttons easily using our quick connects.
+* Header breakouts for use with both clicky-type switched joysticks and...
+* Header breakout and converter for using analog-type joysticks or thumbsticks with potentiometers inside.
+* A 3W digital speaker output that can drive 4-8 ohm speakers for when using with a TV output, audio-less HDMI display or PiTFT. Works even when the Pi doesn't have a headphone jack!
+* Switches are all managed with an I2C-GPIO converter with interrupt out. The converter is very fast and frees up all the pins so you can use this Bonnet with a PiTFT or any other accessory/device that uses a lot of pins!
+
+If you don't need an amplified speaker output, analog-joystick input or minimal pin usage, check out our plain-jane Retrogame tutorial which just plugs all the buttons and joysticks right into the Pi directly.
+
+This item as sold as a mini-kit, with a Bonnet and headers that need to be soldered in to attach it to a Raspberry Pi! It only takes a few minutes but soldering iron and solder are required.
+
+Note: The terminal block included with your product may be blue or black.
+
+It also does not come with any of the extras, so you can choose which buttons/joysticks/speaker you want! Here is a list of the items you can use:
+
+Joysticks:
+
+* Small Arcade Joystick
+* Mini Analog Joystick
+* Assembled 2 Axis Joystick
+* Analog Thumbstick
+* 2 Axis Joystick
+* PSP Analog Joystick
+* PSP3000 Analog Joystick
+
+To connect them, you may want some 20 x 12" Female jumper wires.
+
+Speakers:
+
+* 4 ohm 3 Watt speaker
+* 8 ohm 1 Watt speaker
+* Mono enclosed speaker
+* Mini Metal speaker (may need to turn the volume down in Emulation station)
+* Thin Plastic speaker (may need to turn the volume down in Emulation station)
+
+Arcade Buttons:
+
+* The JST connectors on the Bonnet mate perfectly with Arcade Button Quick-Connect Wire Pairs.
+* Any of our Arcade buttons will work. You can use any switch you like, really – doesn't even need to be a button!
+* The translucent 30mm ones work nicely with the quick-connects and are recommended!
+
+Note: Raspberry Pi, arcade buttons, joysticks, speaker, display, and quick-connect wires are NOT included, and must be purchased separately.
+
+Once you've picked out all your buttons and joysticks and stuff, check out our [Getting-started guide](https://learn.adafruit.com/adafruit-arcade-bonnet-for-raspberry-pi to help you get going!
 
 ### License
 
